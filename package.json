@@ -1,0 +1,16 @@
+{
+  "name": "not_so_itty_bitty_3_kitties_committee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.42.1"
+  }
+}

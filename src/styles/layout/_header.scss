@@ -1,0 +1,63 @@
+@use '../abstract/' as a;
+
+// header
+
+header {
+  background-color: a.$darkBlue;
+  padding: 5px 150px;
+
+  a.logo {
+    font-size: 24px;
+    font-weight: 550;
+    color: a.$white;
+  }
+
+  a.right {
+    font-size: 18px;
+    font-weight: 100;
+    
+    color: a.$lightGray;
+  
+    &:not(:last-child) {
+      margin-right: 25px;
+    }
+  }
+}
+
+// hero
+
+.hero {
+  background-color: a.$darkBlue;
+  color: a.$white;
+
+  padding: 50px 150px;
+
+  p.main {
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+  }
+
+  p.submain {
+    font-size: 18px;
+    font-weight: 100;
+    color: a.$lightGray;
+  }
+
+  img {
+    padding-left: 50px;
+  }
+}
+
+
+button {
+  background-color: a.$skyBlue;
+  color: a.$white;
+  
+  width: 100px;
+  padding: 6px 0;
+  border: none;
+  border-radius: 5px;
+}
+

@@ -1,0 +1,100 @@
+@use '../abstract/' as a;
+
+
+.main {
+
+  padding-bottom: 80px;
+
+  p.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: a.$darkBlue;
+
+  }
+
+}
+
+div.box {
+  
+  height: 170px;
+  width: 170px;
+
+  // outline: 2px solid a.$skyBlue;
+  // border-radius: 15px;
+
+  &:not(:last-child) {
+    margin-right: 35px;
+  }
+
+
+  img {
+    display: block;
+    height: 170px;
+    object-fit: cover;
+    object-position: center;
+    outline: 2px solid a.$skyBlue;
+    
+    border-radius: 15px;
+  }
+
+  span {
+    padding-top: 10px;
+  }
+
+}
+
+.bottom {
+  background-color: a.$lightGray;
+
+
+  .testimonial {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    padding: 80px 150px; 
+  }
+
+
+  .signup {
+    background-color: a.$white;
+    width: 100%;
+    ;
+  }
+
+  .innerBox {
+    background-color: a.$skyBlue;
+    color: a.$white;
+    font-size: 18px;
+
+  
+    width: 600px;
+    margin: 80px 160px;
+  }
+
+  p {
+    font-size: 24px;
+    margin: 0;
+    padding: 0 35px;
+    
+    &:not(:last-child) {
+      padding-top: 16px;
+    }
+    &:not(:first-child) {
+      padding-bottom: 16px;
+    }
+
+  }
+  
+
+  p.small {
+    font-size: 18px;
+    font-weight: 100;
+  }
+
+  button {
+    border: 1px solid a.$white;
+    margin: 16px 35px;
+  }
+
+}
+
