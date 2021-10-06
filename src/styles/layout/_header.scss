@@ -29,10 +29,12 @@ header {
 .hero {
   background-color: a.$darkBlue;
   color: a.$white;
+  height: 400px;
+
 
   padding: 50px 150px;
 
-  p.main {
+  p.mainlogo {
     font-size: 48px;
     font-weight: bolder;
     padding: 0;
@@ -45,8 +47,18 @@ header {
     color: a.$lightGray;
   }
 
+
+  div.right-hero {
+    width: 600px;
+    height: auto;
+    padding-left: 35px;
+    flex: 0 0 auto;
+  
+  }
+
   img {
-    padding-left: 50px;
+    width: 100%;
+    object-fit: cover;
   }
 }
 

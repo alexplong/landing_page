@@ -67,9 +67,10 @@ header a.right:not(:last-child) {
 .hero {
   background-color: #1F2937;
   color: #F9FAF8;
+  height: 400px;
   padding: 50px 150px;
 }
-.hero p.main {
+.hero p.mainlogo {
   font-size: 48px;
   font-weight: bolder;
   padding: 0;
@@ -80,8 +81,15 @@ header a.right:not(:last-child) {
   font-weight: 100;
   color: #E5E7EB;
 }
+.hero div.right-hero {
+  width: 600px;
+  height: auto;
+  padding-left: 35px;
+  flex: 0 0 auto;
+}
 .hero img {
-  padding-left: 50px;
+  width: 100%;
+  object-fit: cover;
 }
 
 button {
@@ -94,6 +102,7 @@ button {
 }
 
 .main {
+  background-color: #F9FAF8;
   padding-bottom: 80px;
 }
 .main p.title {
@@ -138,8 +147,9 @@ div.box span {
   background-color: #3882F6;
   color: #F9FAF8;
   font-size: 18px;
-  width: 600px;
+  width: 800px;
   margin: 80px 160px;
+  padding: 0 80px;
 }
 .bottom p {
   font-size: 24px;
@@ -159,6 +169,16 @@ div.box span {
 .bottom button {
   border: 1px solid #F9FAF8;
   margin: 16px 35px;
+}
+
+footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding: 16px;
+}
+footer p {
+  font-size: 18px;
+  font-weight: 100;
 }
 
 /*# sourceMappingURL=/main.39afc03c.css.map */

@@ -1,0 +1,15 @@
+@use '../abstract/' as a;
+
+footer {
+  
+  background-color: a.$darkBlue;
+  color: a.$white;
+  padding: 16px;
+  
+  p {
+    font-size: 18px;
+    font-weight: 100;
+
+  }
+
+}
